@@ -592,3 +592,34 @@
     line-height: 27.2px;
     padding-top: 20px;
 }
+.programs{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.last_section{
+    background-color: #0D6CAC;
+    height: max-content;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    font-family: "Montserrat";
+    color: #E8F2F8;
+    align-items: center;
+    gap: 30px;
+    padding-bottom: 80px;
+}
+.lasticon{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.last_text{
+    font-weight: 700;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.left_section{
+    width: 700px;
+}
