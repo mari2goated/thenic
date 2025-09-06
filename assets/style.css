@@ -623,3 +623,53 @@
 .left_section{
     width: 700px;
 }
+.contact{
+    height: max-content;
+    background-color: #0D6CAC;
+    text-align: center;
+}
+.heading_before,.send{
+    font-family: "Montserrat";
+    font-size: 19.2px;
+    font-weight: 400;
+    color: #E8F2F8;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    line-height: 27.2px;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+.form{
+    padding-top: 30px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 450px;
+    margin: 0 auto;
+    border: 2px solid #FFCB00;
+    border-radius: 8px;
+}
+.nameform,.nameform2{
+    width: 400px;
+    padding: 5px;
+    text-align: start;
+}
+.nameform2{
+    height: 78px;
+}
+.send{
+    text-align: left;
+    font-size: 14px;
+    padding-left: 40px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+.contact{
+    padding-bottom: 60px;
+}
