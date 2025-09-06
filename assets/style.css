@@ -1,0 +1,308 @@
+ @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+ .navbar{
+    background-color: #0D6CAC;
+    display: flex ;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-bottom: 1px solid white;
+}
+.rightnav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 21.17px;
+    color: #E8F2F8;
+    font-family: "Montserrat", sans-serif;
+    gap: 50px;
+    padding: 40px;
+}
+.navthings{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.leftnav{
+    padding-left: 20px;
+}
+.navitems:hover{
+    color: #FFCB00;
+}
+.navitems, .support{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.support{
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 7px;
+    margin: 3px;
+    padding: 6px;
+}
+.support:hover{
+    color: #FFCB00;
+    border-color: #FFCB00;
+}
+.lower{
+    background-repeat: no-repeat;
+    background-color: #0D6CAC;
+    background-size: cover;
+     background-image: url(./images/calligraphy.png);
+     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lowercontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+.first{
+    font-family: "Almarai", sans-serif;
+    font-weight: 300;
+    font-size: 34px;
+    color: #E8F2F8;
+}
+.second{
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 64px;
+    color: #FFCB00;
+}
+.third{
+    font-weight: 500;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    color: #ECECEC;
+}
+.fourth{
+   font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 16px;
+    color: #ECECEC;
+}
+.mid{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.pt2{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 2px;
+    background-color: #E8F2F8;
+    height: 600px;
+}
+.fbfeeds{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.h1{
+    font-family: "Montserrat";
+    font-size: 33.6px;
+    font-weight: 700;
+    color: #0D6CAC;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.pt3{
+    background-color: #0D6CAC;
+    height: 700px;
+    font-family: "Montserrat";
+    
+    display: flex;
+    justify-content: space-around;
+}
+.mission{
+    width: 40%;
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.ourmission{
+    font-weight: 900;
+    font-size: 34px;
+    color: #E8F2F8;
+    text-align: center;
+
+}
+.msg{
+    padding-top: 30px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #E8F2F8;
+    line-height: 27.2px;
+    text-align: center;
+}
+.txt{
+    font-weight: 900;
+    font-size: 27.2px;
+    line-height: 38.08px;
+    text-align: center;
+    color: #E8F2F8;
+    padding-top: 45px;
+}
+.txt2{
+    font-weight: 500;
+    font-size: 16px;
+    color: #FFCB00;
+    text-align: center;
+    padding-top: 25px;
+}
+.btnn{
+    width: 190px;
+    padding-top: 10px;
+}
+.missionppl{
+    padding-top: 50px;
+}
+.p1{
+    font-weight: 700;
+    font-size: 22.4px;
+    text-align: center;
+    color: #E8F2F8;
+    padding-top: 12px;
+}
+.pt4{
+    background-color: #E8F2F8;
+    text-align: center;
+    height: auto;
+    padding-top: 9px;
+    font-family: "Montserrat";
+}
+.quranicverse, .hadith{
+    color: #0D6CAC;
+    font-size: 33.6px;
+    font-weight: 700;
+    padding-top: 15px;
+}
+.ref1{
+    font-weight: 400;
+    color: #0D6CAC;
+    padding-top: 28px;
+    padding-bottom: 38px;
+}
+.ayat1{
+    font-family: "Almarai";
+    font-weight: 700;
+    color: #0D6CAC;
+    padding-bottom: 18px;
+}
+.trans1, .cont{
+    font-weight: 400;
+    color: #0D6CAC;
+    font-size: 16px;
+    padding-bottom: 38px;
+    line-height: 27.2px;
+}
+.cont{
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 28px;
+}
+.gallery{
+    padding-top: 50px;
+    cursor: pointer;
+    padding-bottom: 50px;
+}
+.pt5{
+    background-color: #0D6CAC;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.location{
+    font-weight: 700;
+    font-size: 34px;
+    color: #E8F2F8;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.map{
+    width: 70%;
+}
+.pt6{
+    background-color: #E8F2F8;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.midout{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 20px;
+    color: #073D62;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    justify-content: center;
+}
+.leftout{
+    padding-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    
+}
+.since{
+    font-family: "Montserrat";
+    font-size: 16px;
+    font-weight: 500;
+    color: #073D62;
+}
+.rightcontent1{
+    padding-top: 45px;
+    font-family: "Akaya Telivigala";
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 34px;
+    color: #0D6CAC;
+    padding-bottom: 25px;
+}
+.rightout{
+    justify-content: center;
+    text-align: center;
+}
+.rightcontent{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 16px;
+    color: #0D6CAC;
+    padding-top: 20px;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
